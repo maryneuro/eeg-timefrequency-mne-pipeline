@@ -1,13 +1,15 @@
-# EEG Time–Frequency (MNE Sample) — Research-level Mini Pipeline
+# EEG Time–Frequency (MNE Sample) — Research Mini Pipeline
 
-- Two-condition TFR (Auditory Left vs Right) on MNE sample EEG
-- Morlet time–frequency power with baseline log-ratio (ERSP-style)
+This repo demonstrates an end-to-end EEG analysis using the public MNE sample dataset:
+- ERP (Auditory Left vs Right)
+- Morlet time–frequency power (baseline log-ratio)
 - Condition difference (Right − Left)
-- Cluster-based permutation test with significance contour
+- Cluster-based permutation statistics (TFR)
 
-## Run
+Run:
 python src/tfr_mne_sample.py
+python src/erp_and_tfr_figure.py
 
-## Output
-![TFR Diff](results/tfr_diff_with_stats.png)
+Outputs:
 ![ERP + TFR](results/erp_tfr_figure.png)
+![TFR stats](results/tfr_diff_with_stats.png)
