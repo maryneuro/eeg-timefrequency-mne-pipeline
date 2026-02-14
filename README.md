@@ -1,23 +1,12 @@
-# EEG Time–Frequency (MNE Sample) — Mini Pipeline
+# EEG Time–Frequency (MNE Sample) — Research-level Mini Pipeline
 
-Minimal, reproducible EEG time–frequency analysis using the public **MNE sample dataset**.
-
-## What it does
-- Loads MNE sample dataset
-- Filters EEG (1–40 Hz)
-- Epochs an auditory condition
-- Computes time–frequency power (Morlet wavelets)
-- Saves outputs to `results/`
-
-## Installation
-pip install -r requirements.txt
+- Two-condition TFR (Auditory Left vs Right) on MNE sample EEG
+- Morlet time–frequency power with baseline log-ratio (ERSP-style)
+- Condition difference (Right − Left)
+- Cluster-based permutation test with significance contour
 
 ## Run
 python src/tfr_mne_sample.py
 
 ## Output
-- results/time_frequency_eeg.png
-- results/run_report.txt
-
-## Example Output
-![Time–Frequency](results/time_frequency_eeg.png)
+![TFR Diff](results/tfr_diff_with_stats.png)
