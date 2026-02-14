@@ -1,0 +1,4 @@
+EEG Time–Frequency mini-pipeline
+Channel: EEG 001
+Freq range: 4.0-30.0 Hz
+Output: results\time_frequency_eeg.png
