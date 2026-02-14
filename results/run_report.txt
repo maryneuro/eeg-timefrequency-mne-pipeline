@@ -1,5 +1,7 @@
-EEG Time–Frequency mini-pipeline (MNE sample)
-Epochs used: 40
-Channel: EEG 001
-Freq range: 4.0-30.0 Hz
-Saved figure: results\time_frequency_eeg.png
+EEG Time–Frequency (research-level mini pipeline)
+Channel: EEG 014
+Epochs Left/Right used: 72 / 73 (matched n=72)
+Baseline: (-0.2, 0.0), mode=logratio
+Freqs: 4.0-40.0 Hz (n=50)
+Stats: permutation_cluster_1samp_test on (Right-Left), alpha=0.05
+Output figure: results\tfr_diff_with_stats.png
