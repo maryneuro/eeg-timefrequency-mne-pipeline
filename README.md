@@ -10,3 +10,4 @@ python src/tfr_mne_sample.py
 
 ## Output
 ![TFR Diff](results/tfr_diff_with_stats.png)
+![ERP + TFR](results/erp_tfr_figure.png)
